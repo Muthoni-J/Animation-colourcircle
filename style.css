@@ -1,0 +1,22 @@
+.circle{
+    height: 300px;
+    width: 300px;
+    margin: 100px auto;
+    background: navy;
+    border-radius: 50%;
+    border-left: 150px solid red;
+    border-right: 150px solid navy;
+    border-top: 150px solid yellow;
+    border-bottom: 150px solid green;
+    animation: rotate 1s linear infinite;
+}
+@keyframes rotate{
+    0%{
+        transform: rotate(0deg);
+        box-shadow: 0 0 40px;
+    }
+    100%
+    {
+        transform: rotate(360deg);   
+    }
+}
